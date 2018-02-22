@@ -3,13 +3,12 @@
   <project name="enesuzun2002/android_device_samsung_zerofltexx" path="device/samsung/zerofltexx" remote="github" revision="nx-7.1" />
   <project name="enesuzun2002/android_device_samsung_zero-common" path="device/samsung/zero-common" remote="github" revision="nx-7.1" />
   <project name="enesuzun2002/android_vendor_samsung" path="vendor/samsung" remote="github" revision="nx-7.1" />
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-14.1" />
  <project path="prebuilts/linaro" name="TeamNexus/android_prebuilts_linaro" remote="github" revision="nx-8.1"/>
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos7420" path="hardware/samsung_slsi-cm/exynos7420" remote="github" revision="cm-14.1" />
+  <project name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos7420" path="hardware/samsung_slsi-cm/exynos7420" remote="github" revision="nx-7.1" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="cm-14.1" />
   <project name="enesuzun2002/android_kernel_samsung_exynos7420" path="kernel/samsung/exynos7420" remote="github" revision="nx-7.1" />
   <project name="enesuzun2002/android_device_samsung_zeroltexx" path="device/samsung/zeroltexx" remote="github" revision="nx-7.1" />
