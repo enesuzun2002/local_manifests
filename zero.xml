@@ -3,12 +3,12 @@
 <manifest>
 	
     <!--Device Trees-->
-    <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" revision="lineage-15.1" remote="github" />
-    <project path="device/samsung/zerofltexx" name="enesuzun2002/android_device_samsung_zerofltexx" revision="lineage-15.1" remote="github" />
-    <project path="device/samsung/zeroltexx" name="enesuzun2002/android_device_samsung_zeroltexx" revision="lineage-15.1" remote="github" />
+    <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" revision="nx-8.1" remote="github" />
+    <project path="device/samsung/zerofltexx" name="enesuzun2002/android_device_samsung_zerofltexx" revision="nx-8.1" remote="github" />
+    <project path="device/samsung/zeroltexx" name="enesuzun2002/android_device_samsung_zeroltexx" revision="nx-8.1" remote="github" />
 
     <!--Kernel-->
-    <project path="kernel/samsung/exynos7420" name="enesuzun2002/android_kernel_samsung_exynos7420" revision="lineage-15.1" remote="github" />
+    <project path="kernel/samsung/exynos7420" name="enesuzun2002/android_kernel_samsung_exynos7420" revision="nx-8.1" remote="github" />
 
     <!--Proprietary Files-->
     <project path="vendor/samsung" name="enesuzun2002/proprietary_vendor_samsung" revision="lineage-15.1" remote="github" />
