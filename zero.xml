@@ -6,6 +6,9 @@
     <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" revision="nx-8.1" remote="github" />
     <project path="device/samsung/zerofltexx" name="enesuzun2002/android_device_samsung_zerofltexx" revision="nx-8.1" remote="github" />
     <project path="device/samsung/zeroltexx" name="enesuzun2002/android_device_samsung_zeroltexx" revision="nx-8.1" remote="github" />
+    <project path="device/samsung/zeroltecan" name="enesuzun2002/android_device_samsung_zeroltecan" revision="nx-8.1" remote="github" />
+    <project path="device/samsung/zerofltecan" name="enesuzun2002/android_device_samsung_zerofltecan" revision="nx-8.1" remote="github" />
+
 
     <!--Kernel-->
     <project path="kernel/samsung/exynos7420" name="enesuzun2002/android_kernel_samsung_exynos7420" revision="nx-8.1" remote="github" />
