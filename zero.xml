@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
+
+    <remote name="nexus"
+            fetch="https://github.com"
+            revision="nx-9.0" />
 	
     <!--Device Trees-->
     <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" remote="nexus" />
