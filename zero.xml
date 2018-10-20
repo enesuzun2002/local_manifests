@@ -18,7 +18,7 @@
     <project path="kernel/samsung/exynos7420" name="enesuzun2002/android_kernel_samsung_exynos7420" remote="nexus" />
 
     <!-- Vendor folders -->
-    <project path="vendor/samsung/zero-common" name="enesuzun2002/proprietary_vendor_samsung" remote="nexus" />
+    <project path="vendor/samsung" name="enesuzun2002/proprietary_vendor_samsung" remote="nexus" />
 
     <!-- Hardware -->
     <project path="hardware/samsung" name="enesuzun2002/android_hardware_samsung" remote="nexus" />
