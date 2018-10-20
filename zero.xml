@@ -22,9 +22,6 @@
     <!-- Vendor folders -->
     <project path="vendor/samsung/zero-common" name="enesuzun2002/android_vendor_samsung_zero-common" remote="nexus" />
 
-    <!-- Kernel Modules -->
-    <project path="kernel/modules/wireguard" name="LineageOS/android_kernel_modules_wireguard" />
-
     <!-- Hardware -->
     <project path="hardware/samsung" name="TeamNexus/android_hardware_samsung" remote="nexus" />
     <project path="hardware/samsung_slsi-cm/exynos" name="TeamNexus/android_hardware_samsung_slsi-cm_exynos" remote="nexus" />
