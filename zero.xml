@@ -2,6 +2,10 @@
 
 <manifest>
 
+    <remote name="nexus"
+            fetch="https://github.com"
+            revision="nx-9.0" />
+
     <!--F-Droid--> 
     <remote name="fdroid" fetch="https://gitlab.com/" />
 
@@ -17,6 +21,7 @@
 
     <!--Kernel-->
     <project path="kernel/samsung/exynos7420" name="enesuzun2002/android_kernel_samsung_exynos7420" revision="nx-8.1" remote="github" />
+    <project path="prebuilts/linaro" name="TeamNexus/android_prebuilts_linaro" groups="pdk,linux,x86_64" remote="nexus" />
 
     <!--Proprietary Files-->
     <project path="vendor/samsung" name="enesuzun2002/proprietary_vendor_samsung" revision="lineage-15.1" remote="github" />
