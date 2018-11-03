@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
+
+    <!--F-Droid--> 
+    <remote name="fdroid" fetch="https://gitlab.com/" />
+
+    <project path="packages/apps/FDroidPrivilegedExtension" name="fdroid/privileged-extension.git" remote="fdroid" revision="refs/tags/0.2.8" />
 	
     <!--Device Trees-->
     <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" revision="nx-8.1" remote="github" />
