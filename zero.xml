@@ -10,7 +10,10 @@
     <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
     <project path="packages/apps/F-DroidPrivilegedExtension"
            name="privileged-extension.git" remote="fdroid"
-revision="refs/tags/0.2.8" />
+           revision="refs/tags/0.2.8" />
+     
+    <remote  name="gitlab"
+           fetch="https://gitlab.com" />
 	
     <!--Device Trees-->
     <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" remote="nexus" />
@@ -22,6 +25,7 @@ revision="refs/tags/0.2.8" />
 
     <!--Kernel-->
     <project path="kernel/samsung/exynos7420" name="enesuzun2002/android_kernel_samsung_exynos7420" remote="nexus" />
+    <project path="prebuilts/linaro/linux-x86/aarch64/" name="enesuzun2002/android_prebuilts_linaro" groups="pdk,linux,x86_64" revision="6.1.1" remote="gitlab" />
 
     <!-- Vendor folders -->
     <project path="vendor/samsung" name="enesuzun2002/proprietary_vendor_samsung" remote="nexus" />
