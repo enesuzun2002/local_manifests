@@ -28,7 +28,7 @@
     <project path="prebuilts/linaro/linux-x86/aarch64/" name="enesuzun2002/android_prebuilts_linaro" groups="pdk,linux,x86_64" revision="6.1.1" remote="gitlab" />
 
     <!-- Vendor folders -->
-    <project path="vendor/samsung" name="enesuzun2002/proprietary_vendor_samsung" remote="nexus" />
+    <project path="vendor/samsung/zero-common" name="enesuzun2002/proprietary_vendor_samsung_zero-common" remote="nexus" />
 
     <!-- Hardware -->
     <project path="hardware/samsung" name="enesuzun2002/android_hardware_samsung" remote="nexus" />
