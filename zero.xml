@@ -5,12 +5,6 @@
     <remote name="nexus"
             fetch="https://github.com"
             revision="nx-9.0" />
-   
-    <!--F-Droid-->
-    <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
-    <project path="packages/apps/F-DroidPrivilegedExtension"
-           name="privileged-extension.git" remote="fdroid"
-           revision="refs/tags/0.2.8" />
      
     <remote  name="gitlab"
            fetch="https://gitlab.com" />
@@ -29,6 +23,7 @@
 
     <!-- Vendor folders -->
     <project path="vendor/samsung/zero-common" name="enesuzun2002/proprietary_vendor_samsung_zero-common" remote="nexus" />
+    <project path="vendor/samsung/zero-private" name="Lukas0610/android_vendor_samsung_zero-private" revision="nx-9.0" remote="private" />
 
     <!-- Hardware -->
     <project path="hardware/samsung" name="enesuzun2002/android_hardware_samsung" remote="nexus" />
