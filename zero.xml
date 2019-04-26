@@ -8,14 +8,6 @@
      
     <remote  name="gitlab"
            fetch="https://gitlab.com" />
-	
-    <!--Device Trees-->
-    <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" remote="nexus" />
-    <project path="device/samsung/zerofltexx" name="enesuzun2002/android_device_samsung_zerofltexx" remote="nexus" />
-    <project path="device/samsung/zeroltexx" name="enesuzun2002/android_device_samsung_zeroltexx" remote="nexus" />
-    <project path="device/samsung/zerofltecan" name="enesuzun2002/android_device_samsung_zerofltecan" remote="nexus" />
-    <project path="device/samsung/zeroltecan" name="enesuzun2002/android_device_samsung_zeroltecan" remote="nexus" />
-
 
     <!--Kernel-->
     <project path="kernel/samsung/exynos7420" name="enesuzun2002/android_kernel_samsung_exynos7420" remote="nexus" />
