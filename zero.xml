@@ -8,6 +8,12 @@
      
     <remote  name="gitlab"
            fetch="https://gitlab.com" />
+
+    <!--F-Droid-->
+    <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
+    <project path="packages/apps/F-DroidPrivilegedExtension"
+           name="privileged-extension.git" remote="fdroid"
+           revision="refs/tags/0.2.8" />
 	
     <!--Device Trees-->
     <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" remote="nexus" />
