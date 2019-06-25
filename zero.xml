@@ -6,7 +6,7 @@
             fetch="https://github.com"
             revision="nx-9.0" />
      
-    <remote  name="gitlab"
+    <remote  name="gitlabs"
            fetch="https://gitlab.com" />
 
     <!--F-Droid-->
@@ -25,7 +25,7 @@
 
     <!--Kernel-->
     <project path="kernel/samsung/exynos7420" name="enesuzun2002/android_kernel_samsung_exynos7420" remote="nexus" />
-    <project path="prebuilts/linaro/linux-x86/aarch64/" name="enesuzun2002/android_prebuilts_linaro" groups="pdk,linux,x86_64" revision="6.1.1" remote="gitlab" />
+    <project path="prebuilts/linaro/linux-x86/aarch64/" name="enesuzun2002/android_prebuilts_linaro" groups="pdk,linux,x86_64" revision="6.1.1" remote="gitlabs" />
 
     <!-- Vendor folders -->
     <project path="vendor/samsung/zero-common" name="enesuzun2002/proprietary_vendor_samsung_zero-common" remote="nexus" />
