@@ -24,7 +24,7 @@
     <project path="prebuilts/linaro/linux-x86/aarch64/" name="enesuzun2002/android_prebuilts_linaro" groups="pdk,linux,x86_64" revision="6.1.1" remote="gitlab" />
 
     <!--Proprietary Files-->
-    <project path="vendor/samsung" name="enesuzun2002/proprietary_vendor_samsung" revision="lineage-15.1" remote="github" />
+    <project path="vendor/samsung/zero-common" name="enesuzun2002/proprietary_vendor_samsung_zero-common" revision="lineage-15.1" remote="github" />
 
     <!--Dependencies-->
     <project path="hardware/samsung/" name="Lineageos/android_hardware_samsung" revision="lineage-15.1" remote="github" />
